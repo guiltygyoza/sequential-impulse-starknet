@@ -29,7 +29,7 @@ C: (PB-PA) • n ≥ 0
 ```
 where `PB` and `PA` are contact points and `n` is contact normal, the corresponding velocity constraint `dC/dt` can be expressed in the following form:
 ```
-C': JV + b = 0
+dC/dt: JV + b = 0
 ```
 where V is the velocities and angular velocities bundled together as `V = [Vax, Vay, Vaz, ωax, ωay, ωaz, Vbx, Vby, Vbz, ωbx, ωby, ωbz]`, `b=0` (we will modify this later), and `J` is a 12x1 row-vector Jacobian.
 
